@@ -1,7 +1,7 @@
 import { Stack, Box } from '@mui/material'
 import { Link } from 'react-router-dom'
 import { colors } from '../../constants/colors'
-import { Searchbar, logo} from '../'
+import { Searchbar, Logo} from '../'
 
 const Navbar = () => {
 	return (
@@ -13,7 +13,7 @@ const Navbar = () => {
 			sx={{ position: 'sticky', top: 0, zIndex: 999, background: colors.primary }}
 		>
 			<Link to={'/'}>
-				<img src={logo} alt='logo' height={30} />
+				<img src={Logo} alt='logo' height={30} />
 			</Link>
 			<Searchbar />
 			<Box />
