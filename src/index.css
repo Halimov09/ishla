@@ -41,7 +41,7 @@ a {
 	transition: all 0.3s ease;
 }
 .category-btn:hover {
-	background-color: #76323f !important;
+	background-color: red !important;
 	color: white !important;
 }
 .category-btn:hover span {
