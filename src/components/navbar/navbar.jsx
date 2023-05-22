@@ -1,8 +1,7 @@
 import { Stack, Box } from '@mui/material'
 import { Link } from 'react-router-dom'
-import { logo } from '../'
 import { colors } from '../../constants/colors'
-import { Searchbar } from '../'
+import { Searchbar, logo} from '../'
 
 const Navbar = () => {
 	return (
